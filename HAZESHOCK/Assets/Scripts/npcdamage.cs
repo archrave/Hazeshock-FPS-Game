@@ -8,7 +8,7 @@ public class npcdamage : MonoBehaviour
     public GameObject brokenhead;
     public GameObject brokenbody;
     //public float deathcause;
-    //shooting sh;
+    public shooting sh;
     public void DoDamage(float amount)
     {
         npchealth -= amount;
@@ -21,26 +21,14 @@ public class npcdamage : MonoBehaviour
 
     void Die(float deathdamage)
     {
-        /* if (deathdamage == sh.damage)
-         { 
-             GameObject ob1 = Instantiate(brokenbody, transform.position, transform.rotation);
-             Destroy(gameObject);
-             Destroy(ob1, 6f);
-         }
-         else if(deathdamage == sh.headdamage)
-         {
-             GameObject ob2 = Instantiate(brokenhead, transform.position, transform.rotation);
-             Destroy(gameObject);
-             Destroy(ob2, 6f);
-         }*/
 
-        if (deathdamage == 100)
+        if (deathdamage == 100f ) //100f sh.headdamage
         {
             GameObject ob1 = Instantiate(brokenhead, transform.position, transform.rotation);
             Destroy(gameObject);
             Destroy(ob1, 6f);
         }
-        else if (deathdamage == 10)
+        else if (deathdamage == 10f) //10f sh.headdamage
         {
             GameObject ob2 = Instantiate(brokenbody, transform.position, transform.rotation);
             Destroy(gameObject);

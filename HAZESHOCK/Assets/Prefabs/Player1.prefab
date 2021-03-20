@@ -4963,6 +4963,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerhealth: 100
   playerpos: {fileID: 7347634169572717403}
+  healthbar_ref: {fileID: 8639439487308912944, guid: 96029ca264ae68b4f8bd0d0894ef8929,
+    type: 3}
+  texthealth_ref: {fileID: 4106110422753916519, guid: 91839949fbdc69142baec4d9211d119c,
+    type: 3}
 --- !u!82 &1814557992
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5088,7 +5092,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Name
-      value: Player1 Variant
+      value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_TagString
