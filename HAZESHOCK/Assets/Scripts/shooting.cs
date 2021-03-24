@@ -14,6 +14,7 @@ public class shooting : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
+    public ParticleSystem bulletGraphic;
 
     private float nexttimetofire = 0f;
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class shooting : MonoBehaviour
     void Shoot()
     {
         muzzleFlash.Play();
+        bulletGraphic.Play();
         RaycastHit hit;
         //The following function returns a boolean value so if the ray hits something the following if statement runs
         //The following function also shoots out a ray in the direction we want and within the range we want to set
@@ -59,7 +61,7 @@ public class shooting : MonoBehaviour
                 hit.rigidbody.AddForce(-hit.normal * shootforce);
             }
            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-           Destroy(impactGO, 0.3f);
+           Destroy(impactGO, 0.2f);
         }
 
     }

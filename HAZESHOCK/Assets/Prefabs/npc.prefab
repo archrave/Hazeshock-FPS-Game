@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3990499653875068781}
   - component: {fileID: 9109080670903882255}
   - component: {fileID: -8917502350599932406}
-  - component: {fileID: -9002334037954745948}
   - component: {fileID: 3173790082119516649}
+  - component: {fileID: -9002334037954745948}
   - component: {fileID: 390924499955794482}
   m_Layer: 0
   m_Name: npc
@@ -72,22 +72,6 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-9002334037954745948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2943001745707723302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82ce70680e3d83049bf507db531b8514, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npchealth: 100
-  brokenhead: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
-    type: 3}
-  brokenbody: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
 --- !u!54 &3173790082119516649
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -104,6 +88,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-9002334037954745948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943001745707723302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ce70680e3d83049bf507db531b8514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npchealth: 100
+  brokenhead: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
+    type: 3}
+  brokenbody: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+  sh: {fileID: 6127629684358348251, guid: 464b09096b67f414b9612a8ff59bf2bb, type: 3}
 --- !u!114 &390924499955794482
 MonoBehaviour:
   m_ObjectHideFlags: 0
