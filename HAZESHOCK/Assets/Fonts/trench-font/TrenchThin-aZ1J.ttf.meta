@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8a7498bccbc179342aa843d5935fb43a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Trench
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c3aec58a91dd4c946a05938190d84763, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

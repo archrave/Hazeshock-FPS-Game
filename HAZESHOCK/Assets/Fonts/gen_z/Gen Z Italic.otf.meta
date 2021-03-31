@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 8f84c5d20ceaa4d449edd4886af78c44
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gen Z
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cc4edc2f323ed464fb0e9fffe9d718f0, type: 3}
+  - {fileID: 12800000, guid: 279a7f154fa4b0042a8f3fcc75487015, type: 3}
+  - {fileID: 12800000, guid: 3b0fd3b6fa7b2f94a8314ff267e46afa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
