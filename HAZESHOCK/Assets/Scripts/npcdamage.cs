@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class npcdamage : MonoBehaviour
 {
@@ -12,7 +10,9 @@ public class npcdamage : MonoBehaviour
     public shooting sh;
     public void DoDamage(float amount)
     {
+        //Debug.Log("Damage khaya: " + amount.ToString());
         npchealth -= amount;
+        Debug.Log("Life Bachi: " + npchealth.ToString());
         if (npchealth <= 0f)
         {
         
@@ -23,7 +23,7 @@ public class npcdamage : MonoBehaviour
     void Die(float deathdamage)
     {
 
-        if (deathdamage == 100f ) //100f sh.headdamage
+        if (deathdamage == sh.headdamage) //100f sh.headdamage
         {
             GameObject ob1 = Instantiate(brokenhead, transform.position, transform.rotation);
             Destroy(gameObject);
@@ -33,7 +33,7 @@ public class npcdamage : MonoBehaviour
 
 
         }
-        else if (deathdamage == 10f) //10f sh.headdamage
+        else if (deathdamage == sh.damage) //10f sh.headdamage
         {
             GameObject ob2 = Instantiate(brokenbody, transform.position, transform.rotation);
             Destroy(gameObject);

@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d80fb094f056df41b973685484fca73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookradius: 30
+  lookradius: 10
 --- !u!195 &-8917502350599932406
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -60,11 +60,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -103,7 +103,8 @@ MonoBehaviour:
   npchealth: 100
   brokenhead: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
     type: 3}
-  brokenbody: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+  brokenbody: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
+    type: 3}
   sh: {fileID: 6127629684358348251, guid: 464b09096b67f414b9612a8ff59bf2bb, type: 3}
 --- !u!114 &390924499955794482
 MonoBehaviour:

@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class shooting : MonoBehaviour
 {
 
-    public float damage = 10f;
+    public float damage = 20f;
     public float headdamage = 100f;
     public float range = 500f;
     public float firerate = 3f;
@@ -53,7 +51,7 @@ public class shooting : MonoBehaviour
                 { 
                     npc.DoDamage(headdamage);
                 }
-                else
+                else 
                     npc.DoDamage(damage);
             }
             if (hit.rigidbody != null)
