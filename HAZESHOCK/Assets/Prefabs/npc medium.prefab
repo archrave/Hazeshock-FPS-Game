@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -9002334037954745948}
   - component: {fileID: 390924499955794482}
   m_Layer: 0
-  m_Name: npc
+  m_Name: npc medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d80fb094f056df41b973685484fca73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookradius: 100
+  lookradius: 150
 --- !u!195 &-8917502350599932406
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -60,8 +60,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 5
-  m_Acceleration: 8
+  m_Speed: 7
+  m_Acceleration: 10
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0.1
@@ -101,9 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npchealth: 100
-  brokenhead: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
+  brokenhead: {fileID: 3636121537397566257, guid: dd5409460113302408fb4345d05c6ef5,
     type: 3}
-  brokenbody: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
+  brokenbody: {fileID: 3636121537397566257, guid: dd5409460113302408fb4345d05c6ef5,
     type: 3}
   sh: {fileID: 6127629684358348251, guid: 464b09096b67f414b9612a8ff59bf2bb, type: 3}
 --- !u!114 &390924499955794482
@@ -182,7 +182,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e893e05cad21f640b82e8ab9571dd87, type: 2}
+  - {fileID: 2100000, guid: 79b44589707259a43a40647265276de4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -278,7 +278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e893e05cad21f640b82e8ab9571dd87, type: 2}
+  - {fileID: 2100000, guid: 79b44589707259a43a40647265276de4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
