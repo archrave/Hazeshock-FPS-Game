@@ -12,7 +12,7 @@ public class npcdamage : MonoBehaviour
     {
         //Debug.Log("Damage khaya: " + amount.ToString());
         npchealth -= amount;
-        Debug.Log("Life Bachi: " + npchealth.ToString());
+        //Debug.Log("Life Bachi: " + npchealth.ToString());
         if (npchealth <= 0f)
         {
         
@@ -29,9 +29,6 @@ public class npcdamage : MonoBehaviour
             Destroy(gameObject);
             Destroy(ob1, 6f);
             FindObjectOfType<updatescore>().ChangeScore();
-
-
-
         }
         else if (deathdamage == sh.damage) //10f sh.headdamage
         {
