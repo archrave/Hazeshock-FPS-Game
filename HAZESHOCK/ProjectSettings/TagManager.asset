@@ -8,6 +8,7 @@ TagManager:
   - head
   - body
   - gatetrigger
+  - HEALTH
   layers:
   - Default
   - TransparentFX

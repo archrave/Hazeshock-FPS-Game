@@ -3,12 +3,11 @@
 public class playerlife : MonoBehaviour
 {
     public float playerhealth = 100f;
-    public Transform playerpos;
-    public updatehealth healthbar_ref;   //Taking a reference from the health slider script attached to the 'Health Bar' object
-    public texthealth texthealth_ref;   //Taking a reference from the text health script attached to the 'Text' 
+    public updatehealth healthbar_ref;      //Taking a reference from the health slider script attached to the 'Health Bar' object
+    public texthealth texthealth_ref;       //Taking a reference from the text health script attached to the 'Text' 
+
     void Start()
     {
-        playerpos = GetComponent<Transform>();
         healthbar_ref.SetMaxHealth(playerhealth);
         texthealth_ref.SetMaximumHealth(playerhealth);
     }
@@ -34,7 +33,7 @@ public class playerlife : MonoBehaviour
     {
         //Vector3 dist = Vector.distance(playerpos.position, npcpos.position);
 
-        if (playerpos.position.y < -15)
+        if (transform.position.y < -15)
         {
             FindObjectOfType<restartlevel>().endgame();
         }
