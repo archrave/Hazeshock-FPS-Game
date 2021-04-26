@@ -34,7 +34,7 @@ public class shooting : MonoBehaviour
         muzzleFlash.Play();
         bulletGraphic.Play();
 
-       // animatorref.SetBool("shot",true);
+        // animatorref.SetBool("shot",true);
         //animatorref.SetTrigger("shotfired");
 
         RaycastHit hit;
