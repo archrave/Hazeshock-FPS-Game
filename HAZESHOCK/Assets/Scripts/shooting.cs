@@ -24,8 +24,11 @@ public class shooting : MonoBehaviour
         {
             nexttimetofire = Time.time + 1f / firerate;
             Shoot();
-            animatorref.SetTrigger("shotfired");
-           // animatorref.SetBool("shot", false);
+            animatorref.SetBool("shot", true);
+        }
+        if(Input.GetMouseButtonUp(0))
+        {
+            animatorref.SetBool("shot", false);
         }
     }
     void Shoot()
@@ -34,13 +37,12 @@ public class shooting : MonoBehaviour
         muzzleFlash.Play();
         bulletGraphic.Play();
 
-        // animatorref.SetBool("shot",true);
-        //animatorref.SetTrigger("shotfired");
+       
 
         RaycastHit hit;
 
-        //The following function returns a boolean value so if the ray hits something the following if statement runs
-        //The following function also shoots out a ray in the direction we want and within the range we want to set
+        //  The following function returns a boolean value so if the ray hits something the following if statement runs
+        //  The following function also shoots out a ray in the direction we want and within the range we want to set
 
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) //out hit = unity stores all the information about the shot object in this hit variable
         {
@@ -54,7 +56,7 @@ public class shooting : MonoBehaviour
             {
                 target.TakeDamage(damage);
             }
-            if (npc != null)      //Checks if we found the 'npcdamage' Component/Script in the object we're shooting
+            if (npc != null)        //Checks if we found the 'npcdamage' Component/Script in the object we're shooting
             {
                 Debug.Log(hit.collider.tag);
                 if (hit.collider.tag== "head")
@@ -71,7 +73,6 @@ public class shooting : MonoBehaviour
            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
            Destroy(impactGO, 0.2f);
         }
-        //animatorref.SetBool("shot",false);
        
 
     }
