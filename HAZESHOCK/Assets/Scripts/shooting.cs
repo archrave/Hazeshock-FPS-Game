@@ -22,23 +22,18 @@ public class shooting : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && Time.time >= nexttimetofire)               //GetButtonDown for pistol maybeInput.GetMouseButtonDown(0
         {
+            
             nexttimetofire = Time.time + 1f / firerate;
             Shoot();
-            animatorref.SetBool("shot", true);
         }
-        if(Input.GetMouseButtonUp(0))
-        {
-            animatorref.SetBool("shot", false);
-        }
+   
     }
     void Shoot()
     {
         
         muzzleFlash.Play();
         bulletGraphic.Play();
-
-       
-
+        animatorref.Play("Base Layer.rifleanimation", 0, 0f);
         RaycastHit hit;
 
         //  The following function returns a boolean value so if the ray hits something the following if statement runs
@@ -71,7 +66,7 @@ public class shooting : MonoBehaviour
                 hit.rigidbody.AddForce(-hit.normal * shootforce);
             }
            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-           Destroy(impactGO, 0.2f);
+           Destroy(impactGO, 0.2f);    
         }
        
 
