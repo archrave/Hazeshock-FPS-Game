@@ -12,8 +12,14 @@ public class FillHealth : MonoBehaviour
             FindObjectOfType<playerlife>().playerhealth = 100f;
             FindObjectOfType<updatehealth>().HealthSlider(100f);
             FindObjectOfType<texthealth>().ChangeTextHealth(100f);
+
             Destroy(gameObject);
         }
+
     }
 
+    void PassToGameManager()
+    {
+
+    }
 }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 390924499955794482}
   m_Layer: 0
   m_Name: npc hard
-  m_TagString: Untagged
+  m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

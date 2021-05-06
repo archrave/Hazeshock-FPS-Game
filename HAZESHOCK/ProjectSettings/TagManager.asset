@@ -9,6 +9,8 @@ TagManager:
   - body
   - gatetrigger
   - HEALTH
+  - Enemy
+  - ENEMY
   layers:
   - Default
   - TransparentFX

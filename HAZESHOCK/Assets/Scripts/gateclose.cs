@@ -6,8 +6,7 @@ public class gateclose : MonoBehaviour
     private void OnTriggerEnter(Collider info)
     {
         if (info.CompareTag("Player"))
-        {
-            Debug.Log("VOID ENTER after");
+        {          
             gateref.GetComponent<gatescript2>().enabled = true;
             //GetComponent<gatescript>().enabled = true;
         }

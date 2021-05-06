@@ -13,8 +13,7 @@ public class spawnnpc : MonoBehaviour
     public float respawntime3 = 2f;
     void Start()
     {
-        StartCoroutine(enemywave());
-        
+        StartCoroutine(enemywave()); 
     }
     private void Spawn(GameObject npcname)
     {
@@ -30,8 +29,7 @@ public class spawnnpc : MonoBehaviour
                 Spawn(npc1);
             }
             else if (score_ref >= 5f && score_ref < 10f)
-            {
-               
+            {   
                 yield return new WaitForSeconds(respawntime2);
                 Spawn(npc2);
                 Spawn(npc1);

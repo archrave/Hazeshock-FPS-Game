@@ -35,7 +35,7 @@ GameObject:
   - component: {fileID: 390924499955794482}
   m_Layer: 0
   m_Name: npc
-  m_TagString: Untagged
+  m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d80fb094f056df41b973685484fca73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookradius: 1
+  lookradius: 1000
 --- !u!195 &-8917502350599932406
 NavMeshAgent:
   m_ObjectHideFlags: 0
