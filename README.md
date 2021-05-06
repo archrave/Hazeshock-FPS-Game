@@ -5,4 +5,4 @@ All Scripts are coded in C#.
 
 Scripts are in: HAZESHOCK/Assets/Scripts
 
-Game is under development at the moment!
+The game is fully playable yet still, under development at the moment!
