@@ -5,7 +5,7 @@ public class playerlife : MonoBehaviour
     public float playerhealth = 100f;
     public updatehealth healthbar_ref;      //Taking a reference from the health slider script attached to the 'Health Bar' object
     public texthealth texthealth_ref;       //Taking a reference from the text health script attached to the 'Text' 
-
+    public Animator bloodUIanimator;
     void Start()
     {
         healthbar_ref.SetMaxHealth(playerhealth);
@@ -16,7 +16,8 @@ public class playerlife : MonoBehaviour
     {
         playerhealth -= damage_amount;
         healthbar_ref.HealthSlider(playerhealth);
-        if( playerhealth <= 0 )
+        bloodUIanimator.Play("Base Layer.bloodscreenanim", 0, 0f);
+        if ( playerhealth <= 0 )
         {
             texthealth_ref.ChangeTextHealth(0f);
             GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;        //Freezes postion but mouse moves

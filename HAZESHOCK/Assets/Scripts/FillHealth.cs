@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 
 public class FillHealth : MonoBehaviour
 {
@@ -12,14 +12,14 @@ public class FillHealth : MonoBehaviour
             FindObjectOfType<playerlife>().playerhealth = 100f;
             FindObjectOfType<updatehealth>().HealthSlider(100f);
             FindObjectOfType<texthealth>().ChangeTextHealth(100f);
-
+            PassToSpawner();
             Destroy(gameObject);
         }
 
     }
 
-    void PassToGameManager()
+    void PassToSpawner()
     {
-
+        FindObjectOfType<Healthspawner>().SpawnWaitHealth();
     }
 }
