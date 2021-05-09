@@ -6,3 +6,7 @@ All Scripts are coded in C#.
 Scripts are in: HAZESHOCK/Assets/Scripts
 
 The game is fully playable yet still, under development at the moment!
+
+Note: This project takes currently about 2.4 gb of space.
+
+
