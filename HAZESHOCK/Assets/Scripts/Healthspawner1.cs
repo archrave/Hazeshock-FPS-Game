@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
-public class Healthspawner : MonoBehaviour
+
+public class Healthspawner1 : MonoBehaviour
 {
     public Animator healthgainUI;
     public GameObject healthboxREF;
@@ -15,18 +16,7 @@ public class Healthspawner : MonoBehaviour
     }
     public void SpawnWaitHealth()
     {
-
-        /*Collider[] intersecting = Physics.OverlapSphere(transform.position, 0.01f);
-        if (intersecting.Length == 0)
-        {
-            Debug.Log("HEALTH ISNT Here ");
-            StartCoroutine(SpawnTheHealthBox());
-        }
-        else if(intersecting.Length == 1)
-            Debug.Log("HEALTH IS already Here at "  + transform.position);*/
-        //healthgainUI.Play("Base Layer.healthGain", 0, 0f);
         healthgainUI.SetTrigger("healthgained");
-        StartCoroutine(SpawnTheHealthBox());
-        
+        StartCoroutine(SpawnTheHealthBox()); 
     }
 }
