@@ -2,7 +2,7 @@
 
 public class shooting : MonoBehaviour
 {
-
+    public AudioSource gunsound;
     public float damage = 20f;
     public float headdamage = 100f;
     public float range = 500f;
@@ -18,6 +18,10 @@ public class shooting : MonoBehaviour
 
     private float nexttimetofire = 0f;
     // Update is called once per frame
+    private void Start()
+    {
+        gunsound = GetComponent<AudioSource>();
+    }
     void Update()
     {
         if (Input.GetMouseButton(0) && Time.time >= nexttimetofire)               //GetButtonDown for pistol maybeInput.GetMouseButtonDown(0
@@ -34,6 +38,7 @@ public class shooting : MonoBehaviour
         muzzleFlash.Play();
         bulletGraphic.Play();
         animatorref.Play("Base Layer.rifleanimation", 0, 0f);
+        gunsound.Play();
         RaycastHit hit;
 
         //  The following function returns a boolean value so if the ray hits something the following if statement runs
