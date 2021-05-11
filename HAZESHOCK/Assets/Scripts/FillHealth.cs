@@ -24,5 +24,6 @@ public class FillHealth : MonoBehaviour
     void PassToSpawner()
     {
         FindObjectOfType<Healthspawner>().SpawnWaitHealth();
+        FindObjectOfType<Healthspawner1>().SpawnWaitHealth();
     }
 }

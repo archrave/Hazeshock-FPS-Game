@@ -5,14 +5,13 @@ public class npcdamage : MonoBehaviour
     public float npchealth = 100f;
     public GameObject brokenhead;
     public GameObject brokenbody;
-
+  
     //public float deathcause;
     public shooting sh;
     public void DoDamage(float amount)
     {
         //Debug.Log("Damage khaya: " + amount.ToString());
         npchealth -= amount;
-        GetComponent<AudioSource>().Play();
         //Debug.Log("Life Bachi: " + npchealth.ToString());
         if (npchealth <= 0f)
         {

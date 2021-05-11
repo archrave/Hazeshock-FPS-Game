@@ -5,12 +5,6 @@ public class pausescript : MonoBehaviour
 {
     bool IsPaused = false;
     public GameObject pausemenuUI;
-    /*void Start()
-    {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-    }*/
-
 
     private void Update()
     { 
