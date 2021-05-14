@@ -3,23 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class restartlevel : MonoBehaviour
 {
-    int isEnd = 0;
-
-    public float delay = 2f;
-
-
-    public void endgame()
+    public void RestartLevel()
     {
-        if (isEnd == 0)
-        {
-            isEnd = 1;
-            Debug.Log("Game Over");
-            Invoke("Restart", delay);
-
-        }
-    }
-    void Restart()
-    {
+        //Invoke("Restart", delay);
+        Debug.Log("Restarting..................");
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
 }
