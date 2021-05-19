@@ -39,10 +39,10 @@ public class playerlife : MonoBehaviour
     }
     void PlayerIsDead()
     {
-        texthealth_ref.ChangeTextHealth(0f);
-        FindObjectOfType<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>().enabled = false;
-        gunref.GetComponent<shooting>().enabled = false;                                    //Unable to shoot now
         FindObjectOfType<updatescore>().UpdateHighScore();
+        texthealth_ref.ChangeTextHealth(0f);
+        FindObjectOfType<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>().enabled = false;      //Unable to move now
+        gunref.GetComponent<shooting>().enabled = false;                                                                    //Unable to shoot now
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
