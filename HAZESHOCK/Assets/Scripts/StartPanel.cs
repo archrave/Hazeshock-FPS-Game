@@ -6,11 +6,14 @@ public class StartPanel : MonoBehaviour
     public Animator startp;
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         StartCoroutine(ShowStartPanel());
     }
     IEnumerator ShowStartPanel()
     {
-        //player.GetComponent<shooting>().SetActive(false);
+        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>().enabled = false;
+        FindObjectOfType<shooting>().enabled = false;
         Debug.Log("Start Panel ");       
         yield return new WaitForSeconds(1f);
         UI1.SetActive(true);
@@ -24,6 +27,8 @@ public class StartPanel : MonoBehaviour
         startp.Play("Base Layer.startpanelanim", 0, .3f);
         startpanel.SetActive(false);
         Debug.Log("Start Panel Over ");       
+        FindObjectOfType<shooting>().enabled = true;
+        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>().enabled = true;
         yield break;
     }
 }

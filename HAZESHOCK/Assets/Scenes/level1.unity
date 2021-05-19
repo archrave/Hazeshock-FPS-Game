@@ -1488,6 +1488,7 @@ MonoBehaviour:
     type: 3}
   bulletGraphic: {fileID: 583501184}
   animatorref: {fileID: 167972429}
+  shooterref: {fileID: 194801162}
 --- !u!82 &167972431
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1748,6 +1749,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!95 &194801162 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 415376653129465870, guid: 842860d8f07817547b61a00da1af9c58,
+    type: 3}
+  m_PrefabInstance: {fileID: 745904548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &199503497
 Mesh:
   m_ObjectHideFlags: 0
@@ -19407,6 +19414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 518800120550324704, guid: 842860d8f07817547b61a00da1af9c58, type: 3}
+    - {fileID: 6741518229486232549, guid: 842860d8f07817547b61a00da1af9c58, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 842860d8f07817547b61a00da1af9c58, type: 3}
 --- !u!4 &745904549 stripped
 Transform:
@@ -36822,6 +36830,7 @@ MonoBehaviour:
   UI1: {fileID: 369960875}
   UI2: {fileID: 1076370469}
   startpanel: {fileID: 484347264}
+  player: {fileID: 1785284639}
   startp: {fileID: 484347266}
 --- !u!43 &1430110530
 Mesh:
@@ -47236,7 +47245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115913002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75faa42f11132d04190188d112daccbf, type: 3}
   m_Name: 

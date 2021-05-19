@@ -8,7 +8,7 @@ public class gateclose : MonoBehaviour
         if (info.CompareTag("Player"))
         {          
             gateref.GetComponent<gatescript2>().enabled = true;
-            //GetComponent<gatescript>().enabled = true;
+            FindObjectOfType<enemyspawn>().enabled = true;
         }
     }
 }

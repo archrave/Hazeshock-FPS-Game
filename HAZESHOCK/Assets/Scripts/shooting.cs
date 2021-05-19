@@ -14,7 +14,7 @@ public class shooting : MonoBehaviour
     public GameObject impactEffect;
     //public GameObject pivotref;
     public ParticleSystem bulletGraphic;
-    public Animator animatorref;
+    public Animator animatorref,shooterref;
 
     private float nexttimetofire = 0f;
     // Update is called once per frame
@@ -38,6 +38,7 @@ public class shooting : MonoBehaviour
         muzzleFlash.Play();
         bulletGraphic.Play();
         animatorref.Play("Base Layer.rifleanimation", 0, 0f);
+        shooterref.Play("Base Layer.shooteranim", 0, 0f);
         gunsound.Play();
         RaycastHit hit;
 
