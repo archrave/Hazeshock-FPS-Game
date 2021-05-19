@@ -18,6 +18,7 @@ public class pausescript : MonoBehaviour
         {
             if (IsPaused)
             {
+
                 ResumeGame();
             }
             else

@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class mainmenuscript : MonoBehaviour
 {
+    public Text Highscoreref;
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -18,5 +20,10 @@ public class mainmenuscript : MonoBehaviour
     {
         Debug.Log("Quit!");
         Application.Quit();
+    }
+    public void ResetHighScoreButtonClicked()
+    {
+        PlayerPrefs.DeleteAll();
+        Highscoreref.text = "0";
     }
 }
