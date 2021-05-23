@@ -127,7 +127,6 @@ MonoBehaviour:
     type: 3}
   brokenbody: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
     type: 3}
-  sh: {fileID: 6127629684358348251, guid: 464b09096b67f414b9612a8ff59bf2bb, type: 3}
 --- !u!114 &390924499955794482
 MonoBehaviour:
   m_ObjectHideFlags: 0
