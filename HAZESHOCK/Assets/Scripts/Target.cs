@@ -5,7 +5,8 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameObject destroyedVersion;
-    public float health = 50f;
+    public GameObject BigVersion;
+    public float health = 80f;
     public void TakeDamage (float amount)
     {
         health -= amount;
@@ -17,7 +18,11 @@ public class Target : MonoBehaviour
 
     void Die()
     {
-        GameObject cracked = Instantiate(destroyedVersion, transform.position, transform.rotation);
+        GameObject cracked;
+        if(GetComponent<Transform>().localScale.x > 1f)
+           cracked = Instantiate(BigVersion, transform.position, transform.rotation); 
+        else
+           cracked = Instantiate(destroyedVersion, transform.position, transform.rotation);
         Destroy(gameObject);
         Destroy(cracked, 6f);
     }

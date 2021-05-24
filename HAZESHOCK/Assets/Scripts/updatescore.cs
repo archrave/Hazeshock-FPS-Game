@@ -5,6 +5,7 @@ public class updatescore : MonoBehaviour
 {
     public Text score;
     public Text highscore;
+    public Text highscore2;
 
     public float score_count = 0f;
     private void Start()
@@ -20,8 +21,9 @@ public class updatescore : MonoBehaviour
     {
         if (score_count > PlayerPrefs.GetFloat("HighScore", 0f))
         { 
-            PlayerPrefs.SetFloat("HighScore", score_count);
             highscore.text = score_count.ToString();
+            highscore2.text = score_count.ToString();
+            PlayerPrefs.SetFloat("HighScore", score_count);
         }
     }
 }

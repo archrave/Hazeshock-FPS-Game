@@ -5,13 +5,30 @@ using UnityEngine;
 public class weaponswitch : MonoBehaviour
 {
     public GameObject[] weapon;
+    public GameObject hand2;
+    [SerializeField]
     int i = 0;
+    void Start()
+    {
+        if (weapon[0].gameObject.activeSelf)
+            i = 0;
+        else
+            i = 1;
+    }
+
     private void Update()
     {
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
             NextWeapon();
         if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             PreviousWeapon();
+        
+       /* if (Input.GetKeyDown(KeyCode.Q) && i == 1)
+        {
+            hand2.GetComponent<Animator>().Play("Base Layer.punchanim", 0, 0f);
+            hand2.GetComponent<punch>().Melee();
+        }*/
+        
     }
 
     void NextWeapon()
@@ -30,4 +47,5 @@ public class weaponswitch : MonoBehaviour
             i--;
         weapon[i].SetActive(true);
     }
+
 }

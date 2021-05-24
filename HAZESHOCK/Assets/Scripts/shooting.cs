@@ -47,8 +47,7 @@ public class shooting : MonoBehaviour
 
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) //out hit = unity stores all the information about the shot object in this hit variable
         {
-           // Debug.Log(hit.transform.name);
-            Debug.Log(hit.transform.tag);
+            //Debug.Log(hit.transform.tag);
 
             Target target = hit.transform.GetComponent<Target>();
             
@@ -59,7 +58,7 @@ public class shooting : MonoBehaviour
             }
             if (npc != null)        //Checks if we found the 'npcdamage' Component/Script in the object we're shooting
             {
-                if (hit.collider.tag== "head")
+                if (hit.collider.tag == "head")
                 { 
                     npc.DoDamage(headdamage);
                 }

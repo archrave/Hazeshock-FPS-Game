@@ -23,7 +23,9 @@ public class mainmenuscript : MonoBehaviour
     }
     public void ResetHighScoreButtonClicked()
     {
-        PlayerPrefs.DeleteKey("HighScore");
+        Debug.Log("Highscore is Reset");
         Highscoreref.text = "0";
+        PlayerPrefs.DeleteAll();
     }
+
 }
