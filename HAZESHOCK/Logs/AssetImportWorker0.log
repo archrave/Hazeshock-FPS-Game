@@ -15,11 +15,11 @@ C:/Users/divya/Documents/GitHub/FPS-Game-built-on-Unity/HAZESHOCK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62756
+63795
 Successfully changed project path to: C:/Users/divya/Documents/GitHub/FPS-Game-built-on-Unity/HAZESHOCK
 C:/Users/divya/Documents/GitHub/FPS-Game-built-on-Unity/HAZESHOCK
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 94.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 118.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,184 +36,111 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004387 seconds.
+Registered in 0.003118 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 88.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.775 seconds
+- Completed reload, in  1.589 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002501 seconds.
+Registered in 0.002873 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 90.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.630 seconds
+- Completed reload, in  1.533 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 171.8 MB.
+System memory in use before: 172.2 MB.
+System memory in use after: 171.9 MB.
 
 Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 3887.
-Total: 5.049700 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.136800 ms MarkObjects: 3.866000 ms  DeleteObjects: 0.588500 ms)
+Total: 8.125800 ms (FindLiveObjects: 0.643400 ms CreateObjectMapping: 0.356300 ms MarkObjects: 6.411000 ms  DeleteObjects: 0.712800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Blue Purple.mat
-  artifactKey: Guid(5f90527baf38a4740aeeb959a54a36f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Blue Purple.mat using Guid(5f90527baf38a4740aeeb959a54a36f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca37f58d139289d4bf54bec539001ff2') in 0.392099 seconds
-  Import took 0.402178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Materials/1st enemy colour.mat
-  artifactKey: Guid(4e893e05cad21f640b82e8ab9571dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/1st enemy colour.mat using Guid(4e893e05cad21f640b82e8ab9571dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eeb2e2945475bd5fadc8b4a9806f73') in 0.033569 seconds
-  Import took 0.042607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
   path: Assets/Materials/Defaut Materail.mat
   artifactKey: Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defaut Materail.mat using Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebf0848a2f8f18d7ed13af7cf633a36') in 0.021854 seconds
-  Import took 0.032976 seconds .
+Start importing Assets/Materials/Defaut Materail.mat using Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98314eaf3eb181fab2b4a9006a3ebc9e') in 0.369079 seconds
+  Import took 0.379234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Materials/2nd enemy colour.mat
-  artifactKey: Guid(79b44589707259a43a40647265276de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/2nd enemy colour.mat using Guid(79b44589707259a43a40647265276de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde03c2fb83863c172820ccbb50dfbc3') in 0.027961 seconds
-  Import took 0.039428 seconds .
+  Time since last request: 1275.541194 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(5b3a36ae8cdebea46be81113e43f2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(5b3a36ae8cdebea46be81113e43f2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ada66a8cd10c91ce23dc2621529371') in 0.341234 seconds
+  Import took 0.721183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Materials/hard enemy colour.mat
-  artifactKey: Guid(d8fb83521aa4c734d833f2a504fc08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/hard enemy colour.mat using Guid(d8fb83521aa4c734d833f2a504fc08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532dffbba4db6740d6d9a6f803d0270a') in 0.021285 seconds
-  Import took 0.030478 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004609 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.047 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.0 MB.
-System memory in use after: 160.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3968.
-Total: 8.384800 ms (FindLiveObjects: 0.562200 ms CreateObjectMapping: 0.279000 ms MarkObjects: 6.897900 ms  DeleteObjects: 0.643200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002802 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 160.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3971.
-Total: 4.794100 ms (FindLiveObjects: 0.581500 ms CreateObjectMapping: 0.222400 ms MarkObjects: 3.514300 ms  DeleteObjects: 0.474100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 289.951198 seconds.
+  Time since last request: 0.000365 seconds.
   path: Assets/Materials/Defaut Materail.mat
   artifactKey: Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defaut Materail.mat using Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4aa699f5e05053a048706d42bb96c1') in 0.245234 seconds
-  Import took 0.253092 seconds .
+Start importing Assets/Materials/Defaut Materail.mat using Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d0e55770e4dc015d4f02c5ef42193') in 0.047258 seconds
+  Import took 0.055228 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 685.711149 seconds.
-  path: Assets/Materials/New.mat
-  artifactKey: Guid(ef6b6d504c2e85e459485c8befc5f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New.mat using Guid(ef6b6d504c2e85e459485c8befc5f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0aa3030a17e0edaf39fb8be8378c9') in 0.035592 seconds
-  Import took 0.043983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
+  Time since last request: 0.000292 seconds.
   path: Assets/Materials/Wall Plain.mat
   artifactKey: Guid(14d3d0c3f59002a449fbb6fc23caa750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wall Plain.mat using Guid(14d3d0c3f59002a449fbb6fc23caa750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed047fe8124a5c7e75df0248c2a265') in 0.026399 seconds
-  Import took 0.035853 seconds .
+Start importing Assets/Materials/Wall Plain.mat using Guid(14d3d0c3f59002a449fbb6fc23caa750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d609a90610787815499314c0662e94e') in 0.037750 seconds
+  Import took 0.047908 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 20.246824 seconds.
-  path: Assets/Materials/Defaut Materail.mat
-  artifactKey: Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defaut Materail.mat using Guid(5d0d5b505606611459bdb3f6c2c803b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c14cccd98eb6e04d433fa86db6ce392') in 0.019615 seconds
-  Import took 0.025863 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.2 MB.
+System memory in use after: 161.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3968.
+Total: 6.031200 ms (FindLiveObjects: 0.822800 ms CreateObjectMapping: 0.300800 ms MarkObjects: 4.357500 ms  DeleteObjects: 0.547700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
