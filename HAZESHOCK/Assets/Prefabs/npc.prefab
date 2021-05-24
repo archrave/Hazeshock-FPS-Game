@@ -127,6 +127,8 @@ MonoBehaviour:
     type: 3}
   brokenbody: {fileID: 3636121537397566257, guid: 078cb850834280641bf73a96e2b2e4e6,
     type: 3}
+  punchedbody: {fileID: 4641682134006817452, guid: 95baa0bcd06514f4d8c018664f71366f,
+    type: 3}
 --- !u!114 &390924499955794482
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class punch : MonoBehaviour
     public GameObject fpsCam;
     public float range = 1f;
     public float punchforce = 400f;
-    public float punchdamage = 100f;
+    private float punchdamage = 220f;
    
     
    void Update()
@@ -34,7 +34,7 @@ public class punch : MonoBehaviour
 
             if (npc != null)        //Checks if we found the 'npcdamage' Component/Script in the object we're shooting
             {
-                    npc.DoDamage(punchdamage);
+                npc.DoDamage(punchdamage);
             }
             if (hit.rigidbody != null)
             {

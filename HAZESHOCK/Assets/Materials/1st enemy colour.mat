@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 1st enemy colour
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _WINDQUALITY_NONE
+  m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -128,7 +128,7 @@ Material:
     - _Glossiness: 1
     - _GlossyReflections: 1
     - _HueVariationKwToggle: 0
-    - _Metallic: 0
+    - _Metallic: 0.1
     - _Mode: 0
     - _NormalMapKwToggle: 0
     - _OcclusionStrength: 1
@@ -138,7 +138,7 @@ Material:
     - _ReflDistort: 0.44
     - _RefrDistort: 0.4
     - _Shininess: 0.078125
-    - _Smoothness: 1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
