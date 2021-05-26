@@ -66,7 +66,7 @@ public class enemyspawn : MonoBehaviour
         {
             randEnemy = Random.Range(0, highestpowerfulNPC);
             Transform a = Instantiate(NPC[randEnemy]);
-            a.position = new Vector3(Random.Range(-45f, 45f), Random.Range(2, 20f), Random.Range(30f, 145f));         
+            a.position = new Vector3(Random.Range(-45f, 45f), Random.Range(2, 20f), Random.Range(30f, 115f));         
             yield return new WaitForSeconds(enemyspawnInterval);
         }
 
