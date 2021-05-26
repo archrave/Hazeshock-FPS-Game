@@ -20725,7 +20725,7 @@ PrefabInstance:
     - target: {fileID: 2023054753339301457, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2190802511209208323, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
@@ -20750,7 +20750,7 @@ PrefabInstance:
     - target: {fileID: 2652812092693454102, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2664804905059107195, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
@@ -20800,7 +20800,7 @@ PrefabInstance:
     - target: {fileID: 5516563216229207306, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5562356385413376623, guid: 842860d8f07817547b61a00da1af9c58,
         type: 3}
@@ -32089,6 +32089,18 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!114 &1200280977 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2449354874610304725, guid: cd5020672f1b3af4fb7076bfae4ae2a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1286691496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1208086475
 GameObject:
   m_ObjectHideFlags: 0
@@ -37315,9 +37327,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2115913006}
-        m_TargetAssemblyTypeName: restartlevel, Assembly-CSharp
-        m_MethodName: RestartLevel
+      - m_Target: {fileID: 1413836308}
+        m_TargetAssemblyTypeName: pausescript, Assembly-CSharp
+        m_MethodName: RestartTheGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38980,6 +38992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausemenuUI: {fileID: 629246097}
+  HighscoreTxt: {fileID: 1200280977}
 --- !u!114 &1413836309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47156,7 +47169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 90c58c65f76dbe741b5dede2c0ac644d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 90c58c65f76dbe741b5dede2c0ac644d, type: 3}
       propertyPath: m_RootOrder
@@ -47299,6 +47312,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2115913002}
+        m_TargetAssemblyTypeName: pausescript, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1413836308}
         m_TargetAssemblyTypeName: pausescript, Assembly-CSharp
         m_MethodName: GotoMainMenu

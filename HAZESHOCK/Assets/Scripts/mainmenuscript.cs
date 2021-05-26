@@ -9,6 +9,7 @@ public class mainmenuscript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        Highscoreref.text = PlayerPrefs.GetFloat("HighScore").ToString();
     }
 
     public void PlayButtonClicked()

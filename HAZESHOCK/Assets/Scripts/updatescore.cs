@@ -25,5 +25,10 @@ public class updatescore : MonoBehaviour
             highscore2.text = score_count.ToString();
             PlayerPrefs.SetFloat("HighScore", score_count);
         }
+        else
+        {
+            highscore.text = PlayerPrefs.GetFloat("HighScore").ToString();
+            highscore2.text = PlayerPrefs.GetFloat("HighScore").ToString();
+        }
     }
 }
