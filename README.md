@@ -3,14 +3,14 @@
 A first person shooter developed on Unity Engine. The project files work in Unity version 2020.3.2f1 or higher. 
 
 The open beta is out now for free! Download from here: (or install it from this project in HAZESHOCK/Installer/HAZESHOCK Setup x86.exe)
-https://metalrave.itch.io/hazeshock
+https://metalrave.itch.io/hazeshock (available only for Windows, yet!)
 
 ## Description
 The premise of the game is to shoot and kill as many enemies as possible, which will spawn randomly in the arena. The player gets damaged if he collides with any of the enemies.
 You can use a rifle and a pistol, and even punch while holding the pistol. You can heal yourself when your low on health with the floating health boxes. The enemies come in waves, with each wave having an increase in number and in their difficulty level. 
 
 ## Level Design
-The project is based on the Universal Render Pipeline with some post processing effects. The majority of level is modeled using Unity's ProBuilder Tool. The disceted enemy objects are made using Blender. The rifle model (orignally made by Brackeys) is optimised with a lot of light bars in Unity itself. The rest of the objects are made using Unity's primitive 3D objects and materials.
+The project is based on the Universal Render Pipeline with some post processing effects. The majority of level is modeled using Unity's ProBuilder Tool from scratch. The disceted enemy objects are made using Blender. The rifle model (orignally made by Brackeys) is optimised with a lot of light bars in Unity itself. The rest of the objects are made using Unity's primitive 3D objects and materials.
 
 ## Lighting and Graphics
 The scene had a baked (i.e the lighting system is prerendered, which provides better performance as compared to realtime lighting) lightmap consisting of numerous Light emmitter materials, with a slight directional lighting. 
