@@ -19,7 +19,7 @@ The scene also has a lot of light probes and a reflection probe to made it look 
 The post-processing effects include HDR, Bloom, Depth of Field, Colour Correction and Shawdows
 
 ## Animations
-All the animations are created inside Unity's Animation Tab. All of them are stored in /HAZESHOCK/Assets/Animations
+All the animations are created inside Unity's Animation Tab from scratch. All of them are stored in /HAZESHOCK/Assets/Animations
 
 ## Scripting
 All Scripts are coded in C#, and are located in: HAZESHOCK/Assets/Scripts
