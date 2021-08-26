@@ -5,6 +5,10 @@ A first person shooter developed on Unity Engine. The project files work in Unit
 The open beta is out now for free! Download from here: (or install it from this project in HAZESHOCK/Installer/HAZESHOCK Setup x86.exe)
 https://metalrave.itch.io/hazeshock (available only for Windows, yet!)
 
+## Preview
+
+https://user-images.githubusercontent.com/57811359/130992271-885b9a06-02f9-4121-9832-6a5284afd4f0.mp4
+
 ## Description
 The premise of the game is to shoot and kill as many enemies as possible, which will spawn randomly in the arena. The player gets damaged if he collides with any of the enemies.
 You can use a rifle and a pistol, and even punch while holding the pistol. You can heal yourself when your low on health with the floating health boxes. The enemies come in waves, with each wave having an increase in number and in their difficulty level. 
