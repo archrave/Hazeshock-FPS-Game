@@ -1,4 +1,4 @@
-# HAZESHOCK-An-FPS-Game-built-on-Unity
+# HAZESHOCK (Unity)
 
 A first person shooter developed on Unity Engine. The project files work in Unity version 2020.3.2f1 or higher. 
 
