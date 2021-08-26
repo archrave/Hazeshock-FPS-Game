@@ -28,8 +28,5 @@ All the animations are created inside Unity's Animation Tab from scratch. All of
 ## Scripting
 All Scripts are coded in C#, and are located in: HAZESHOCK/Assets/Scripts
 
-
-Note: This project takes currently about 2.5 gigabytes of space.
-
 This is the first open beta version of the game so you might experience some bugs or crashes, which'll get fixed in some time. I'll also be constantly adding new features and updates so any feedback from you is appreciated!
 
